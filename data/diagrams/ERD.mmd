@@ -1,0 +1,19 @@
+---
+title: onelink
+---
+erDiagram
+    USER ||--o{ LINK: "has"
+    USER {
+        UUID id PK "required"
+        char username "required, unique"
+        char given_name "required"
+        char family_name "required"
+        char email "required, unique"
+    }
+    LINK {
+        UUID id PK "required"
+        UUID user_id FK
+        char uri "required"
+        bool enabled "required"
+    }
+
