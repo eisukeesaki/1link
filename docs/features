@@ -1,0 +1,21 @@
+features
+    publish landing page
+        content type
+            HTML
+        contents
+            list of links
+                URIs of sites owned by user
+    provide interface for link management
+        interface
+            operations
+                ... link
+                    ...
+                        add
+                        edit
+                        delete
+                        show/hide
+                ... link title
+                    ...
+                        automatically create (using page title)
+                        edit
+

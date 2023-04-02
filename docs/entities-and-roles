@@ -1,0 +1,12 @@
+entities & roles
+    WEB BROWSER
+        request resources
+        handle responses
+            render received contents inside viewport
+    NODE
+        listen to requests
+        have endpoints
+            ENDPOINTS
+                executes logic to generate and send dynamic resources
+    database
+        permanently store app data

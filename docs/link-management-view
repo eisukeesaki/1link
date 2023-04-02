@@ -1,0 +1,18 @@
+link management view
+    representation format
+        HTML
+    COMPONENTS
+        link list
+            link
+                TRIGGERS 
+                    ... link
+                        ...
+                            add
+                            edit
+                            delete
+                            show/hide
+                    ... link title
+                        ...
+                            edit
+                                disallow empty title
+
