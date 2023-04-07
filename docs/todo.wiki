@@ -1,1 +1,7 @@
-play around with tRPC to determine if it's appropriate to use
+- [X] determine wheter PostgreSQL's jsonb data type is appropriate to use
+- [o] determine wheter tRPC is appropriate to use
+    - [o] do a full request-response cycle: 
+        - [X] { client on node }<-->{ API on node }
+        - [ ] { client on browser }<-->{ API on node }
+- [ ] determine at a high-level, how to build `link management interface` and `landing page`
+
