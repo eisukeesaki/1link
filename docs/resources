@@ -1,8 +1,0 @@
-resources
-    'Sign in with Google'
-        /authN
-    link management interface
-        /admin
-    landing page
-        /:username
-            https://expressjs.com/en/guide/routing.html#route-parameters

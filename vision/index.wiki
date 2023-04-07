@@ -1,0 +1,6 @@
+link in bio tool
+    [[todo]]
+    [[features]]
+    [[resources]]
+    [[architectural entities and roles]]
+    [[usage examples]]

@@ -1,0 +1,6 @@
+usage examples
+    sign up
+    sign in
+    create links
+    (landing page is automatically published)
+    (user shares link to landing page on arbitrary sites)

@@ -1,0 +1,34 @@
+link management interface
+    path
+        /admin
+    view
+        representation format
+            HTML
+        UI components
+            link creator
+                elements
+                    <input>
+                        functionality
+                            take user input for adding a new link
+                    <button>
+                        functionality
+                            invoke API endpoint responsible for creating a new link with user input 
+            link configurator
+                elements
+                    <input>
+                        functionality
+                            edit link title
+                    <input>
+                        functionality
+                            edit link
+                    <button>
+                        delete link
+            landing page link copier
+                elements
+                    <p>
+                        functionality
+                            render link to landing page
+                    <p>
+                        functionality
+                            copy link to landing page to system clipboard
+

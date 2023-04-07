@@ -1,0 +1,18 @@
+data
+    format
+        JSON
+    app data
+        records
+            user
+                attributes
+                    id
+                    username
+                    given name
+                    family name
+                    email
+            link
+                attributes
+                    id
+                    users.id
+                    uri
+                    enabled

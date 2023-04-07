@@ -1,4 +1,4 @@
-entities & roles
+architectural entities & roles
     WEB BROWSER
         request resources
         handle responses

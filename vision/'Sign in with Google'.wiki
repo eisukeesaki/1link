@@ -1,0 +1,4 @@
+'Sign in with Google'
+    path
+        /authN
+

@@ -1,0 +1,27 @@
+features
+    essential
+        provide interface for link management
+            interface
+                operations
+                    ... link
+                        ...
+                            add
+                            edit
+                            delete
+                            enable/disable
+                    ... link title
+                        ...
+                            automatically create (using page title)
+                            edit
+        publish landing page
+            content type
+                HTML
+            contents
+                list of links
+                    URIs of sites owned by user
+    wishlist
+        customizable landing page
+        traffic analytics
+        scheduling links
+        custom domains
+
