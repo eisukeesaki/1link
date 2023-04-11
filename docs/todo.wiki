@@ -1,11 +1,11 @@
 [X] determine wheter PostgreSQL's jsonb data type is appropriate to use
-[ ] determine at a high-level, how to build `link management interface` and `landing page`
-[.] add title column to links table
+[X] determine at a high-level, how to build `link management interface` and `landing page`
+[X] add title column to links table
     [X] update migration file
-    [ ] update ERD
-    [ ] update table
-    [ ] regenerate mock data
-    [ ] re-seed table
+    [X] update ERD
+    [X] update table
+    [X] regenerate mock data
+    [X] re-seed table
 [ ] code
     [ ] `link management interface`
         [ ] GET /admin renders `link_management_interface.link_configurator`
