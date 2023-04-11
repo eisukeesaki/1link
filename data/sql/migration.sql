@@ -58,6 +58,9 @@ CREATE TABLE links (
         UUID
         REFERENCES users
         NOT NULL,
+    title
+        VARCHAR(250)
+        NOT NULL,
     uri
         VARCHAR(500)
         NOT NULL,
