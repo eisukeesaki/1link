@@ -1,0 +1,14 @@
+API
+    architectural style
+        REST(ish)
+    endpoints
+        app data
+            users
+                GET /users/:userId
+            links
+                GET /links/:userId
+                POST {uri} /links
+                PATCH {title} /links/:linkId
+                PATCH {uri} /links/:linkId
+                DELETE /links/:linkId
+

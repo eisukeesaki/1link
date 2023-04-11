@@ -7,8 +7,6 @@ app data
                 given name
                 family name
                 email
-            operations
-                GET /users/:userId
         link
             attributes
                 id
@@ -16,10 +14,3 @@ app data
                 title
                 uri
                 enabled
-            operations
-                GET /links/:userId
-                POST {uri} /links
-                PATCH {title} /links/:linkId
-                PATCH {uri} /links/:linkId
-                DELETE /links/:linkId
-
