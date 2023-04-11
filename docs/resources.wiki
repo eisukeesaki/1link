@@ -1,5 +1,5 @@
 resources
+    [[app data]]
     [[link management interface]]
     [[landing page]]
     [['Sign in with Google']]
-    [[data]]

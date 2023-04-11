@@ -4,6 +4,8 @@ link management interface
     view
         representation format
             HTML
+        data required for page load
+            (all) links records associated with user
         UI components
             link creator
                 elements
