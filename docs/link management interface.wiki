@@ -8,27 +8,32 @@ link management interface
             link creator
                 elements
                     <input>
-                        functionality
-                            take user input for adding a new link
+                        function
+                            take data for a new link
                     <button>
-                        functionality
-                            invoke API endpoint responsible for creating a new link with user input 
+                        function
+                            invoke API
+                                {uri} POST /links
             link configurator
                 elements
                     <input>
-                        functionality
-                            edit link title
+                        function
+                            invoke API
+                                {title} PATCH /links/:id
                     <input>
-                        functionality
-                            edit link
+                        function
+                            invoke API
+                                {uri} PATCH /links/:id
                     <button>
-                        delete link
+                        function
+                            invoke API
+                                DELETE /links/:id
             landing page link copier
                 elements
                     <p>
-                        functionality
+                        function
                             render link to landing page
                     <p>
-                        functionality
-                            copy link to landing page to system clipboard
+                        function
+                            invoke clipboard API to copy 'link to landing page' to system clipboard
 

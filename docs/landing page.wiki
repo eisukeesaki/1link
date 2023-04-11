@@ -1,7 +1,6 @@
 landing page
     path
         /:username
-            https://expressjs.com/en/guide/routing.html#route-parameters
     view
         representation format
             HTML
@@ -9,13 +8,13 @@ landing page
             profile
                 elements
                     <h?>
-                        functionality
+                        function
                             render full name
                     <h?>
-                        functionality
+                        function
                             render biography
             link list
                 elements
                     <a>
-                        functionality
-                            create hyperlink pointing to user-specified resources
+                        function
+                            create hyperlink pointing to links.uri
