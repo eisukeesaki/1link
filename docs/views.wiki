@@ -1,0 +1,3 @@
+views
+    [[link management interface]]
+    [[landing page]]

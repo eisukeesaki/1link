@@ -1,41 +1,40 @@
 link management interface
     path
         /admin
-    view
-        representation format
-            HTML
-        data required for page load
-            (all) links records associated with user
-        UI components
-            link creator
-                elements
-                    <input>
-                        function
-                            take data for a new link
-                    <button>
-                        function
-                            invoke API
-                                {uri} POST /links
-            link configurator
-                elements
-                    <input>
-                        function
-                            invoke API
-                                {title} PATCH /links/:id
-                    <input>
-                        function
-                            invoke API
-                                {uri} PATCH /links/:id
-                    <button>
-                        function
-                            invoke API
-                                DELETE /links/:id
-            landing page link copier
-                elements
-                    <p>
-                        function
-                            render link to landing page
-                    <p>
-                        function
-                            invoke clipboard API to copy 'link to landing page' to system clipboard
+    representation format
+        HTML
+    data required for page load
+        (all) links records associated with user
+    UI components
+        link creator
+            elements
+                <input>
+                    function
+                        take data for a new link
+                <button>
+                    function
+                        invoke API
+                            {uri} POST /links
+        link configurator
+            elements
+                <input>
+                    function
+                        invoke API
+                            {title} PATCH /links/:id
+                <input>
+                    function
+                        invoke API
+                            {uri} PATCH /links/:id
+                <button>
+                    function
+                        invoke API
+                            DELETE /links/:id
+        landing page link copier
+            elements
+                <p>
+                    function
+                        render link to landing page
+                <p>
+                    function
+                        invoke clipboard API to copy 'link to landing page' to system clipboard
 

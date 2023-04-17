@@ -1,20 +1,19 @@
 landing page
     path
         /:username
-    view
-        representation format
-            HTML
-        UI components
-            profile
-                elements
-                    <h?>
-                        function
-                            render full name
-                    <h?>
-                        function
-                            render biography
-            link list
-                elements
-                    <a>
-                        function
-                            create hyperlink pointing to links.uri
+    representation format
+        HTML
+    UI components
+        profile
+            elements
+                <h?>
+                    function
+                        render full name
+                <h?>
+                    function
+                        render biography
+        link list
+            elements
+                <a>
+                    function
+                        create hyperlink pointing to links.uri
