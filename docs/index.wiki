@@ -1,7 +1,7 @@
 link in bio tool
-    [[todo]]
     [[motivation]]
     [[features]]
     [[resources]]
     [[architectural entities and roles]]
+    [[todo]]
     [[usage examples]]
