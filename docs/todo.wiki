@@ -9,4 +9,5 @@
 [ ] code
     [ ] `link management interface`
         [ ] GET /admin renders `link_management_interface.link_configurator`
+[ ] find niche demands in the market
 

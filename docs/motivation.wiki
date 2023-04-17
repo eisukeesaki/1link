@@ -1,0 +1,5 @@
+motivation
+    the problem
+        Social media influencers needs to share multiple links with their followers, however most main-steam social media platforms allows users to put only one link in their biography.
+    the solution
+        Build and provide a service that allows users to publish their own landing page that lists multiple links that they can manage and share it with their followers via their biography section on social media platforms.

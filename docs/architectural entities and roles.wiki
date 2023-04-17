@@ -8,7 +8,7 @@ architectural entities & roles
                         render received contents inside viewport
         [[API]]
             roles
-                listen for requests
+                listen for requests from clients
                 have endpoints fulfill requests
         database
             roles
